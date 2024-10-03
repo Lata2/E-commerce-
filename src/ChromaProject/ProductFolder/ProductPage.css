@@ -1,0 +1,62 @@
+.MainHomePageContainer{
+    /* background-color: rgb(24, 21, 21); */
+    background: linear-gradient(rgb(61, 58, 58),rgb(14, 13, 13));
+    /* height: 100vh; */
+    width: 88%;
+   padding: 6%;
+   
+}
+.ProductContainer{
+    margin-top: 10%;
+    height: 60vh;
+    width: 80%;
+    border: 1px solid rgb(58, 56, 56);
+
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    padding: 10%;
+}
+.ImageContainer{
+    width: 95%;
+    height: 35vh;
+    border: 1px solid rgb(70, 66, 66);
+    display: grid;
+    place-items: center;
+    background-color: rgb(61, 55, 55);
+}
+.Image{
+    width: 60%;
+    height: 26vh;
+}
+.ProductDetails{
+    color: white;
+    text-align: center;
+    width: 80%;
+}
+.LikeIcon{
+
+    text-align: center !important;
+    color: white;
+    margin-left: 85%;
+    font-size: larger;
+    /* transition: color 0.3s ease; Add a smooth transition for color change */
+    transition: color 0.3s ease;
+
+}
+/* .LikeIcon {
+    position: absolute;
+    top: 30px;
+    right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+   */
+  
+  
+  .LikeIcon.liked {
+    color: red;
+    background-color: transparent;
+    /* background-color: red; */
+
+
+
+  }

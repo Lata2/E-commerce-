@@ -1,0 +1,139 @@
+.MainHomeThirdPageContainer {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    /* border: 1px solid white; */
+    /* flex-wrap: wrap; */
+}
+
+.HomeThirdPageContainer {
+    width: 50%;
+    padding: 1%;
+    margin: auto;
+    display: flex;
+    /* border: 1px solid white; */
+}
+
+.ImageHomeThirdPageContainer {
+    height: 20vh;
+    width: 100%;
+    /* border: 1px solid white; */
+
+    margin: auto;
+}
+
+.ICICImageContainer {
+    border: 1px solid;
+    width: 90%;
+    height: 30vh;
+    margin: auto;
+    display: grid;
+    align-items: center;
+}
+
+.ICICImage {
+    width: 90%;
+    margin: auto;
+}
+
+.OurNewFavouritesContainer {
+    margin: auto;
+}
+
+.MainOurNewFavouritesContainer {
+    width: 100%;
+    display: flex;
+    /* flex-wrap: wrap; Allows items to wrap to the next line if needed */
+}
+
+.OurNewFavouritesContainer {
+    width: 50%;
+    margin: auto;
+    padding: 3%;
+    box-sizing: border-box; /* Ensure padding doesn't affect width */
+}
+
+.ImageOurNewFavouritesContainer {
+    height: 50vh;
+    width: 100%;
+}
+
+/* Media Queries for responsiveness */
+@media (max-width: 1200px) {
+    .MainHomeThirdPageContainer {
+       flex-direction: column;
+        /* flex-wrap: wrap; */
+    }
+    .ImageHomeThirdPageContainer {
+        height: 18vh;
+    }
+    .ICICImageContainer {
+        height: 25vh;
+    }
+    .ImageOurNewFavouritesContainer {
+        height: 45vh;
+    }
+}
+
+@media (max-width: 992px) {
+    .ImageHomeThirdPageContainer {
+        height: 16vh;
+    }
+    .ICICImageContainer {
+        height: 22vh;
+    }
+    .ImageOurNewFavouritesContainer {
+        height: 40vh;
+    }
+}
+
+@media (max-width: 768px) {
+    .MainHomeThirdPageContainer,
+    .MainOurNewFavouritesContainer {
+        /* flex-direction: column; */
+        align-items: center;
+    }
+    .ImageHomeThirdPageContainer {
+        height: 14vh;
+    }
+    .ICICImageContainer {
+        height: 20vh;
+    }
+    .ImageOurNewFavouritesContainer {
+        height: 35vh;
+    }
+    .OurNewFavouritesContainer {
+        width: 100%; /* Stacks images on top of each other for medium screens */
+        padding: 2%; /* Adjust padding if necessary */
+    }
+}
+
+@media (max-width: 600px) {
+    .MainHomeThirdPageContainer,
+    .MainOurNewFavouritesContainer {
+        display: block;
+    }
+
+    .HomeThirdPageContainer {
+        padding: 1%;
+    }
+
+    .ICICImageContainer {
+        width: 100%;
+        height: 20vh;
+    }
+
+    .ICICImage {
+        width: 90%;
+        height: 10vh;
+    }
+
+    .OurNewFavouritesContainer {
+        width: 100%;
+        padding: 2%;
+    }
+
+    .ImageOurNewFavouritesContainer {
+        height: 30vh;
+    }
+}

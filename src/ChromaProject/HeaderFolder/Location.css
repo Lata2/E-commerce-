@@ -1,0 +1,26 @@
+.MainLocationPage {
+    /* display: flex; */
+    /* justify-content: center;
+    align-items: center; */
+    /* height: 100vh; */
+    font-size: small;
+    text-align: center;
+
+}
+
+.LocationModal .ant-modal-content {
+    text-align: center;
+}
+
+.LocationModal .ant-modal-body {
+    padding: 20px;
+}
+
+.LocationModal .ant-modal-header {
+    border-bottom: none;
+}
+
+.LocationInput{
+    width: 80%;
+    height: 5vh;
+}

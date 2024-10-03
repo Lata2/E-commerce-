@@ -1,0 +1,25 @@
+.slider-container {
+    width: 90%;
+    margin: auto;
+    height: auto;
+  }
+  
+  .slick-slide img {
+    width: 100%;
+    height: 90vh;
+  }
+  
+  .slick-dots li button:before {
+    color: #fff; /* Change the color of the dots if needed */
+  }
+
+ @media (max-width: 600px) {
+  .slick-slide img {
+    height: 50vh;
+  
+  }
+  
+
+
+ }
+  

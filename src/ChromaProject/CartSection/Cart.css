@@ -1,0 +1,123 @@
+.MainCartContainer {
+    width: 100%;
+    /* border: 10px solid; */
+    background-color: white;
+    /* height: 100vh; */
+    /* display: flex; */
+}
+
+.CartContainer {
+    width: 90%;
+    margin: auto;
+    /* height: 100vh; */
+    /* margin-top: 5%; */
+    display: flex;
+    /* border: 1px solid; */
+
+
+}
+
+.ProductImagePrizeContainer {
+    /* border: 1px solid; */
+    padding: 1%;
+    width: 100%;
+    /* height: 100vh; */
+
+
+}
+
+.MainProductImagePrizeContainer {
+    /* display: flex; */
+    justify-content: space-between;
+    column-gap: 1%;
+    padding: 20px;
+    /* height: 100vh; */
+
+    /* border: 1px solid red; */
+}
+
+.MainProductBillContainer{
+    /* border: 1px solid; */
+    width: 40%;
+}
+.ProductBillContainer {
+    /* border: 1px solid; */
+    width: 90%;
+    /* height: 100vh; */
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 5%;
+
+
+}
+.ColContaint{
+    font-size: x-small;
+}
+
+.CheakButton{
+    width: 80%;
+    margin: auto;
+    height: 5vh;
+    margin-left: 10%;
+    /* padding: 1; */
+    color: aliceblue;
+    background-color: green;
+}
+.addProductsContainer {
+    display: flex;
+    /* border: 1px solid; */
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    width: 90%;
+    padding: 2%;
+    height: 40vh;
+    /* margin-top: 10%; */
+    margin: auto;
+}
+
+.MainaddProductsImage {
+    width: 50%;
+    height: 100%;
+    /* border: 1px solid; */
+}
+
+.addProductsImage {
+    width: 100%;
+    height: 100%;
+
+}
+.ProductPrizeAdd{
+    font-weight: bold;
+}
+.MainProductDescription {
+    width: 60%;
+    font-size: x-small;
+    font-weight: bold;
+    padding: 2%;
+    /* border: 1px solid; */
+    height: 92% !important;
+
+}
+
+.MainProductPrizeAdd {
+    width: 20%;
+    height: 92%;
+    padding: 2%;
+
+    /* border: 1px solid; */
+
+}
+.Rating{
+    font-size:small;
+}
+.button-container {
+    display: flex;
+    gap: 10px; /* Adds space between the buttons */
+    /* border: 1px solid; */
+}
+
+.button {
+    height: 5vh;
+    font-size: smaller;
+    color: white;
+    background-color: green;
+}

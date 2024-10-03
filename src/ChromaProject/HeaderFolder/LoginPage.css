@@ -1,0 +1,29 @@
+.ContinueButton{
+    width: 80%;
+    /* margin-left: 10%; */
+    color: white;
+    background-color: green;
+
+}
+.MainLoginPage{
+    text-align: center;
+    font-size: small;
+    /* background-color: black;
+    color: white; */
+}
+.LoginModel{
+    text-align: center;
+    width: 10%;
+    font-size: xx-small;
+
+}
+.LoginModelContainer{
+    /* color: white;/ */
+/* background:linear-gradient(rgb(89, 85, 85),rgb(29, 27, 27)) */
+
+    
+}
+.LoginInputBox{
+    width: 70%;
+}
+

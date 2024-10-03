@@ -1,0 +1,40 @@
+ /* .sliderContainer{
+  border: 1px solid white;
+
+}
+.ImageSliderContainer{
+  border: 1px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30vh;
+  width: 10%;
+}
+.ImageSlider{
+  width: 10%;
+  height: 30vh;
+
+} */
+
+.sliderContainer {
+  /* border: 1px solid white; */
+  width: 80%;
+  margin: auto;
+  height:25vh;
+  /* padding: 1%;  */
+}
+
+.ImageSliderContainer {
+  /* border: 1px solid white; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height:15vh;
+  width: 100%; 
+}
+
+.ImageSlider {
+  max-width: 100%; 
+  max-height: 100%; /* Ensures images don't overflow */
+  object-fit: contain; /* Ensures images maintain aspect ratio */
+}

@@ -1,0 +1,40 @@
+
+.upMainHomeFourthPageContainer{
+    background-color: rgb(16, 14, 14);
+
+}
+.MainHomeFourthPageContainer{
+    /* height: 50vh; */
+    width: 100%;
+    /* border: 1px solid; */
+    display: flex;
+    background-color: rgb(19, 16, 16);
+
+}
+.HomeFourthPageContainer{
+    /* height: 50vh; */
+    width: 50%;
+    /* border: 1px solid; */
+    padding: 5%;
+    margin: auto;
+}
+
+.ImageHomeFourthPageContainer{
+    height: 40vh;
+    width: 100%;
+    margin: auto;
+}
+.AppliancesimageContainer{
+    /* border: 1px solid white; */
+    width: 90%;
+    height: 50vh;
+    margin: auto;
+    display: grid;
+    align-items: center;
+}
+.Appliancesimage{
+  width: 90%;
+  margin: auto;
+  height:30vh;
+
+}

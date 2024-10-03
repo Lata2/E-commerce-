@@ -1,0 +1,70 @@
+.mobile-views-container {
+    /* padding: 2%; */
+    font-family: Arial, sans-serif;
+    color: white;
+    /* border: 1px solid white; */
+    width: 90%;
+    margin: auto;
+
+
+}
+.Mainmobile-views-container{
+    background-color: rgb(19, 17, 17);
+
+}
+
+/* .mobile-views-container p {
+    font-size: 2.4vh;
+    font-weight: bold;
+} */
+
+.banner img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.content {
+    margin: 2% 0;
+}
+
+.slider-container {
+    margin-top: 2%;
+}
+
+.slick-slide > div {
+    margin: 0 1%; /* Adjust the spacing between slides */
+}
+
+.slick-list {
+    margin: 0 -1%; /* Compensate for the negative margin in slick-slide */
+}
+
+.slick-prev:before, .slick-next:before {
+    color: black;
+}
+
+
+.sliderContainerMobilePage {
+    /* border: 1px solid white;  */
+    width: 100%;
+    margin: auto;
+    height:50vh;
+
+    /* padding: 1%;  */
+  }
+  
+  .ImageSliderContainerMobilePage {
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:50vh;
+    width: 90%; 
+  }
+  
+  .ImageSliderMobile {
+    max-width: 90%; 
+    max-height: 100%; 
+    object-fit: contain; 
+  }
